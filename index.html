@@ -42,6 +42,7 @@
             <th>Duration</th>
             <th>Frequency</th>
         </tr>
+    <table>    
         <tr> 
             <th><select id="number">
                     <option value="1">1</option>
@@ -176,7 +177,7 @@ $(document).ready(function(){
         var zone_data = '';
         $.each(data, function(key, value) {
             zone_data += '<tr>';
-            zone_data += '<td>' +value.number + '</td>';
+            zone_data += '<td>' +value.zone + '</td>';
             zone_data += '<td>' +value.start_hour +':'+value.start_minute + '</td>';
             zone_data += '<td>' +value.duration + '</td>';
             zone_data += '<td>' +value.frequency + '</td>';    
