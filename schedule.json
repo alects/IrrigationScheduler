@@ -25,34 +25,34 @@
         "start_hour": 6,
         "start_minute": 10,
         "duration": 20,
-        "frequency": "daily"
+        "frequency": "MWF"
     },
     {
-        "zone": 6,
+        "zone": 5,
         "start_hour": 6,
         "start_minute": 30,
         "duration": 30,
-        "frequency": "daily"
+        "frequency": "weekday"
     },
     {
         "zone": 6,
         "start_hour": 7,
         "start_minute": 0,
         "duration": 10,
-        "frequency": "daily"
+        "frequency": "weekend"
     },
     {
         "zone": 7,
         "start_hour": 7,
         "start_minute": 10,
         "duration": 30,
-        "frequency": "daily"
+        "frequency": "weekend"
     },
     {
         "zone": 8,
         "start_hour": 20,
         "start_minute": 0,
         "duration": 30,
-        "frequency": "daily"
+        "frequency": "TThS"
     }
 ]
