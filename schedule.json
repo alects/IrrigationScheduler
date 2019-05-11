@@ -1,0 +1,58 @@
+[
+    {
+        "zone": 1,
+        "start_hour": 5,
+        "start_minute": 0,
+        "duration": 20,
+        "frequency": "daily"
+    },
+    {
+        "zone": 2,
+        "start_hour": 5,
+        "start_minute": 20,
+        "duration": 30,
+        "frequency": "daily"
+    },
+    {
+        "zone": 3,
+        "start_hour": 5,
+        "start_minute": 50,
+        "duration": 20,
+        "frequency": "daily"
+    },
+    {
+        "zone": 4,
+        "start_hour": 6,
+        "start_minute": 10,
+        "duration": 20,
+        "frequency": "daily"
+    },
+    {
+        "zone": 6,
+        "start_hour": 6,
+        "start_minute": 30,
+        "duration": 30,
+        "frequency": "daily"
+    },
+    {
+        "zone": 6,
+        "start_hour": 7,
+        "start_minute": 0,
+        "duration": 10,
+        "frequency": "daily"
+    },
+    {
+        "zone": 7,
+        "start_hour": 7,
+        "start_minute": 10,
+        "duration": 30,
+        "frequency": "daily"
+    },
+    {
+        "zone": 8,
+        "start_hour": 20,
+        "start_minute": 0,
+        "duration": 30,
+        "frequency": "daily"
+    }
+]
