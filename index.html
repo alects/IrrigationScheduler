@@ -32,7 +32,7 @@
     }
 </style>
 
-<body background="background.jpg">
+<body>
     <h1>Irrigation Cycles</h1>
     <table class = "table table-striped table-hover table-dark" id ="schedule_table">
         <tr>
@@ -42,16 +42,16 @@
             <th>Frequency</th>
         </tr>
      
-    <table class = "table table-striped table-hover table-dark" id ="update_table">
+    <table class = "table table-bordered table-striped table-hover table-dark" id ="update_table">
         <h2>Update Schedule</h2>   
         <tr>
-                <th>Zone</th>
-                <th>Start Time</th>
-                <th>Duration in minutes</th>
-                <th>Frequency</th>
+                <td>Zone</td>
+                <td>Start Time</td>
+                <td>Duration in minutes</td>
+                <td>Frequency</td>
         </tr>   
         <tr> 
-            <th><select id="number">
+            <td><select id="number">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -60,8 +60,8 @@
                     <option value="6">6</option>
                     <option value="7">7</option>
                     <option value="8">8</option>
-                </select>    </th>
-            <th><select id="start_hour">
+                </select>    </td>
+            <td><select id="start_hour">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -147,8 +147,8 @@
                     <option value="57">57</option>
                     <option value="58">58</option>
                     <option value="59">59</option>
-                </select>    </th>
-            <th><select id="duration">
+                </select>    </td>
+            <td><select id="duration">
                     <option value="10">10</option>
                     <option value="15">15</option>
                     <option value="20">20</option>
@@ -157,8 +157,8 @@
                     <option value="40">40</option>
                     <option value="50">50</option>
                     <option value="60">60</option>
-                </select>minutes    </th>
-            <th><select id="frequency">
+                </select>minutes    </td>
+            <td><select id="frequency">
                     <option value="daily">daily</option>                    
                     <option value="weekday">weekdays</option>
                     <option value="weekend">weekend</option>
@@ -166,7 +166,7 @@
                     <option value="TThS">TThS</option>
                     <option value="MWFSu">MWFSu</option>
                     <option value="TThSM">TThSM</option>
-                </select>    </th>
+                </select>    </td>
         </tr>
 
         <tr>
